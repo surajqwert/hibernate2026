@@ -1,0 +1,15 @@
+# Ignore Eclipse workspace metadata
+.metadata/
+
+# Ignore compiled / build files
+*/bin/
+*/target/
+
+# Ignore Eclipse project config files
+*/.settings/
+*/.classpath
+*/.project
+
+# OS system files
+.DS_Store
+Thumbs.db
