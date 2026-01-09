@@ -14,8 +14,8 @@ public class TestCourseController {
 		EntityManager em = emf.createEntityManager();
 		
 		Course c1 = new Course();
-		c1.setCourseName("C and CPP");
-		c1.setCoursePrice(25000);
+		c1.setCourseName("Python");
+		c1.setCoursePrice(18000);
 		
 		em.getTransaction().begin();
 		em.persist(c1);
